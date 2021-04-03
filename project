@@ -1,0 +1,48 @@
+<html>
+<head>
+<title>Projects</title>
+<style type="text/css">
+.menu
+{
+overflow: hidden;
+
+background-color: #03fcad;
+}
+.menu a
+{
+
+float: left;
+
+text-align: center;
+padding: 15px 60px;
+
+text-decoration:none;
+font-size: 17px;
+}
+div {
+background-image: url('22.jpg');
+}
+
+</style>
+
+</head>
+<body bg color="black">
+<div class="menu">
+
+<a href="file:///D:/WT/Html/transports.html">HOME</a>
+
+<a href="file:///D:/WT/Html/service">Services</a>
+<a href="file:///D:/WT/Html/project">Projects</a>
+<a href="file:///D:/WT/Html/gallerys">Gallery</h3></a>
+<a href="file:///D:/WT/Html/About">About</a>
+<a href="file:///D:/WT/Html/contact">contact</a>
+</div>
+
+<img src="cs.jpg", width="1000" height="500">
+<img src="bvb1.jpg",align="center" width="500" height="500">
+<img src="tidal1.jpg", width="500" height="500">
+<p><h4>we are doing transport services in CS Academy erode&CBE , BVB
+erode , Tidal park CBE.</h4></p>
+
+</body>
+</html>

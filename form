@@ -1,0 +1,132 @@
+<html>
+<head>
+<title> USER INPUT</title>
+</head>
+<body>
+<h1> Form Creation </h1>
+<form>
+
+<fieldset>
+<legend> Van Details </legend>
+<label> Transport Name</label>
+<input type="text" name="textF" size="50" maxlength="8" value="van
+Name"><br><br>
+van number
+<input type="text" name="textL" value="van num" tabindex="1" required> <br><br>
+
+<label> Roll Num </label>
+
+<input type="text" name="textF" placeholder="roll num" tabindex="2" autofocus
+required> <br><br>
+
+Mobile no
+<input type="number">
+
+<label>Gender:</label>
+<input type="radio" id="male" name="gender" value="m">
+<label> Male</label>
+<input type="radio" id="female" name="gender" value="f">
+<label> Female</label> <br><br>
+</fieldset>
+<label>School name</label>
+<input type="radio" id="BE" name="Programme" value="BE">
+<label> BVB</label>
+<input type="radio" id="ME" name="Programkkk" value="ME" checked>
+<label> CS</label><br><br>
+
+<fieldset>
+<legend> Requirements </legend>
+Timing:
+<input type="checkbox" id="c" name="subject" value="c program">
+<label for="c">Morning</label>
+<input type="checkbox" id="java" name="subject" value="java" checked>
+<label for="java">Evening</label>
+<input type="checkbox" id="python" name="subject" value="python">
+<label for="python">Master JEE</label>
+<br><br>
+Term:
+
+<input type="checkbox" id="games" name="hobb" value="games">
+<label >Term 1</label>
+<input type="checkbox" id="gardening" name="hobb" value="gardening">
+<label >Term 3</label>
+<input type="checkbox" id="coding" name="hobb" value="codes">
+<label >Term 3</label>
+<br><br>
+</fieldset>
+
+address
+<textarea rows="6" cols="10" name="addr" tabindex="3" wrap="physical">
+</textarea>
+
+<input type="submit" value="Submit"> <br> <br>
+
+</form>
+</body>
+
+</html>
+
+<!--
+<input type="text" name="textF" size="50" maxlength="8" value="FirstName"
+tabindex="1"><br><br>
+<input type="text" name="textL" tabindex="2"><br><br>
+<label for="Languages Known"> Languages Known</label><br>
+
+<label>Gender</label>
+<input type="radio" id="male" name="gender" value="m">
+<label> Male</label>
+<input type="radio" id="female" name="gender" value="f">
+<label> Female</label> <br><br>
+
+<label>Programmme</label>
+<input type="radio" id="BE" name="Programme" value="BE">
+<label> BE</label>
+<input type="radio" id="ME" name="Programme" value="ME" checked>
+<label> ME</label><br><br>
+
+Languages known:
+<input type="checkbox" id="c" name="subject" value="c">
+<label for="c">C</label>
+<input type="checkbox" id="java" name="subject" value="java" checked>
+<label for="java">JAVA</label>
+<input type="checkbox" id="python" name="subject" value="python">
+<label for="python">Python</label>
+<br><br>
+hobbies:
+
+<input type="checkbox" id="games" name="hobb" value="games">
+<label >Games</label>
+<input type="checkbox" id="gardening" name="hobb" value="gardening">
+<label >gardening </label>
+<input type="checkbox" id="coding" name="hobb" value="codes">
+<label >coding</label>
+<br><br>
+
+<label> Branch</label><br>
+<select name="branch" size="2">
+<option value="IT"> IT </option>
+<option value="CSE" selected> CSE </option>
+<option value="ECE"> ECE </option>
+</select> <br><br>
+
+<label> browser </label>
+<input type="text" list="aa" name="browser">
+<datalist id="aa">
+<option value="IE">
+<option value="Firefox">
+<option value="chrome">
+<option value="opera">
+<option value="ccc">
+</datalist>
+<fieldset>
+<legend> Personal Details </legend>
+<label for="NameF"> FirstName</label>
+<input type="text" name="textF"><br><br>
+
+<label for="NameL"> LastName</label>
+<input type="text" name="textL" > <br><br>
+</fieldset>
+
+address
+<textarea rows="6" cols="10" name="addr" tabindex="3">
+</textarea>

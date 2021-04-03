@@ -1,0 +1,85 @@
+<html>
+<head>
+<title>Services</title>
+<style type="text/css">
+	.menu
+	{
+		  overflow: hidden;
+
+		background-color: #03fcad;
+	}
+	.menu a
+	{
+		float: left;
+  		
+  		text-align: center;
+  		padding: 15px 60px;
+
+  		text-decoration:none;
+  		font-size: 17px;
+	}
+div {
+  background-image: url('bus.jpg');
+}
+
+</style>
+
+</head>
+<body>
+<div class="menu">
+			<a href="file:///D:/WT/Html/transports.html">HOME</a>
+<a href="file:///D:/WT/Html/service">Services</a>
+<a href="file:///D:/WT/Html/project">Projects</a>
+<a href="file:///D:/WT/Html/gallerys">Gallery</h3></a>
+<a href="file:///D:/WT/Html/About">About</a>
+<a href="file:///D:/WT/Html/contact">contact</a>
+		</div>
+
+<table border="5" cellpadding ="0" cellspacing="10" style="width:50%;text-align:center;">
+
+   <tr>
+      <td colspan="4">Transport Costs </td>
+   </tr>
+   <tr>
+    <td><strong>Van Num</td>
+    <td><strong>Van Pic</td>
+    <td><strong>Rates</td>
+    <td><strong>Price</td>
+   </tr>
+   
+   <tr>
+    <td rowspan="2">1</td>
+    <td rowspan="2"><img src="van.jpg" width="50" height="50"></td>
+    <td>Tourister Per km</td>
+    <td>10</td>
+   </tr>
+   <tr>
+    <td>For toursiter van per day</td>
+    <td>20</td>
+   </tr>
+   <tr>
+    <td rowspan="2">2</td>
+    <td rowspan="2"><img src="van1.jpg" width="100" height="50"></td>
+    <td>Traveller Per km</td>
+    <td>12</td>
+   </tr>
+   <tr>
+     <td>Shipping Handling, Installation, etc</td>
+     <td>14</td>
+   </tr>
+   <tr>
+      <td colspan="4">Purchased Equipments (June, 2006) </td>
+   </tr>
+</table>
+
+<h1>Vechicles available</h1>
+<ul type="circle">
+<li>Tourister</li>
+<li>Traveller</li>
+<li>Goods vechicle</li>
+</ul></h1>
+
+</body>
+</html>
+
+

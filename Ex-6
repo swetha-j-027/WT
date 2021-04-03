@@ -1,0 +1,15 @@
+<html> 
+<head> 
+<title></title> 
+</head> 
+<body> 
+<center> <h1><i>LOGIN PAGE</i></h1> 
+<form action="http://localhost:8000/login" method="get"> <br> 
+Enter your name <input type="text" name="username" value=""/><br> <br> 
+Enter your email <input type="text" name="email" value=""/><br> <br> 
+<input type="submit" name="login" value="Login"/> 
+<h4>Designed by 18ITR104@SWETHA J</h4> 
+</center> 
+</form> 
+</body> 
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>REGISTRATION FORM </title>
+</head>
+<body>
+<h1 style="text-align: center;font-size:150%">CGPA
+
+CALCULATOR</h1>
+
+<form action = "">
+<center><fieldset>
+<legend><strong>ENTER YOUR INDIVIDUAL SEMESTER
+
+GPA</strong></legend>
+
+<table width="100%">
+<tr>
+
+<td><p>SEM 1 GPA:<input id = "num1" type = "text" size = "10"
+value="" maxlength = "10" ></p></td>
+
+<td><p>SEM 2 GPA:<input id = "num2" type =
+
+"text" size = "10" value="" maxlength = "10" ></p></td>
+<td><p>SEM 3 GPA:<input id = "num3" type = "text" size = "10"
+value="" maxlength = "10" ></p></td>
+
+<td><p>SEM 4 GPA:<input id = "num4" type =
+
+"text" size = "10" value="" maxlength = "10" ></p></td>
+</tr>
+<tr>
+
+<td><p>SEM 5 GPA:<input id = "num5" type =
+
+"text" size = "10" value="" maxlength = "10" ></p></td>
+<td><p>SEM 6 GPA:<input id = "num6" type = "text" size = "10"
+value="" maxlength = "10" ></p></td>
+<td><p>SEM 7 GPA:<input id = "num7" type = "text" size = "10"
+value="" maxlength = "10" ></p></td>
+
+<td><p>SEM 8 GPA:<input id = "num8" type =
+
+"text" size = "10" value="" maxlength = "10" ></p></td>
+
+</tr>
+
+</table>
+</fieldset></center>
+
+<center>
+<p>
+<button type="button" onclick="getresult()">calculate</button>
+<input type = "reset" value = "Clear">
+</p>
+<h1>CALCULATED CGPA = <div id=answer></div></h1>
+
+</center>
+
+</form>
+<script>
+function getresult(){
+var firstc = Number(document.getElementById('num1').value);
+
+var secondc = Number(document.getElementById('num2').value);
+
+var thirdc =Number(document.getElementById('num3').value);
+
+var fourthc = Number(document.getElementById('num4').value);
+
+var fivthc = Number(document.getElementById('num5').value);
+
+var sixthc = Number(document.getElementById('num6').value);
+
+var seventhc = Number(document.getElementById('num7').value);
+
+var eighthc = Number(document.getElementById('num8').value);
+
+var sum1 = (firstc+secondc+thirdc+fourthc+fivthc+sixthc+seventhc+eighthc);
+
+var result = sum1/8;
+
+document.getElementById("answer").innerHTML = result;
+}
+</script>
+
+</body>
+</html>
